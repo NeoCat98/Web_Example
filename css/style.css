@@ -5,3 +5,51 @@
 	font-family: 'Raleway';
 	text-decoration: none;
 }
+
+.body{
+	margin:5% 20%;
+	background-image: url("background_img1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.menu{
+	margin: 1%;
+	padding: 10px;
+	border-bottom: 2px solid #ccc
+}
+
+.log{
+	padding: 10px;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.div{
+	padding: 8px 10px;
+	margin: 10px;
+}
+.div:hover {
+	border-color: hsla(0,0%,100%,.5);
+	box-shadow: none;
+}
+
+.btn-gradient{
+	margin: 10px;
+	padding: 10px;
+	background-color: white;
+	border: transparent;
+}
+
+.btn-gradient:hover {
+	background-image: linear-gradient(90deg,#f00c,#f00c);
+	color: white;
+}
+
+.signoff {
+    right: 15px;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+
+}
